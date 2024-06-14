@@ -1,14 +1,7 @@
 const contacts = require("./contacts");
-
-// const newContact = contacts.addContact(
-//   "Mama",
-//   "johndoe@MediaList.com ",
-//   "123-456-789"
-// );
-
-// const deletedContact = contacts.removeContact(14);
 const { Command } = require("commander");
 const program = new Command();
+
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
